@@ -1,0 +1,110 @@
+V "GNAT Lib v2015"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U main%b		main.adb		9d5ed2c7 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-inteio.ads		20150518132148 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20150518132148 a5838d5a ada.real_time%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiinio.ads		20150518132148 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D main.adb		20151007015526 5378aeb7 main%b
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-multip.ads		20150518132150 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20150518132150 2e5b26a9 system.os_interface%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stausa.ads		20150518132150 017a0a05 system.stack_usage%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20150518132150 601f6b72 system.task_info%s
+D s-taspri.ads		20150518132150 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20150518132150 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20150518132150 339749f0 system.tasking%s
+D s-tassta.ads		20150518132150 70812003 system.tasking.stages%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D s-win32.ads		20150518132150 b7f96285 system.win32%s
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r18 1r43 1r55
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 15|1w22 1r59
+X 8 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 1r47
+263U14*Put_Line 15|52s5 57s7 63s5 68s7 86s4 91s7
+X 9 a-tiinio.ads
+66U14*Put 15|55s10[3|18] 66s10[3|18] 89s9[3|18]
+X 15 main.adb
+3U11*Main 3b11 98l5 98t9
+5a4 matrizA(integer) 24m4 55r14 77r48
+6a4 matrizB(integer) 35m5 66r14 77r63
+7a4 matrizC(integer) 45m5 77m16 77r32 89r13
+9i4 i{integer}
+9i7 j{integer}
+9i9 k{integer}
+11t9 llenarMatrizA 20b14 28l8 28t21
+12t9 llenarMatrizB 30b14 38l8 38t21
+13t9 llenarMatrizC 41b14 48l8 48t21
+14t9 MaResultante 84b14 93l8 93t20
+15t9 Multiplicacion 72b15 82l11 82t25
+16t9 MostrarA 50b14 59l8 59t16
+17t9 MostrarB 61b14 70l11 70t19
+22i8 i{integer} 24r12
+23i9 j{integer} 24r14
+32i8 i{integer} 35r13
+33i9 j{integer} 35r15
+43i8 i{integer} 45r13
+44i9 j{integer} 45r15
+53i10 i{integer} 55r22
+54i10 j{integer} 55r24
+64i10 i{integer} 66r22
+65i10 j{integer} 66r24
+74i8 i{integer} 77r24 77r40 77r56
+75i10 j{integer} 77r26 77r42 77r73
+76i14 k{integer} 77r58 77r71
+87i8 i{integer} 89r21
+88i11 j{integer} 89r23
+X 26 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+
